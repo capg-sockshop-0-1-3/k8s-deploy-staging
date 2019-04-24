@@ -7,13 +7,13 @@
             "aggregation" : "avg",
             "tags" : "service:carts,environment:staging",
             "upperLimit" : 800.0,
-            "lowerLimit" : 600.0
+            "lowerLimit" : 0.0
         },
         {
             "timeseriesId" : "com.dynatrace.builtin:service.failurerate",
             "aggregation" : "avg",
             "tags" : "service:carts,environment:staging",
-            "upperLimit" : 5.0,
+            "upperLimit" : 11.0,
             "lowerLimit" : 0.0
         },
         {
@@ -21,7 +21,7 @@
             "aggregation" : "avg",
             "tags" : "service:front-end,environment:staging",
             "upperLimit" : 800.0,
-            "lowerLimit" : 200.0
+            "lowerLimit" : 0.0
         }
     ]
 }
