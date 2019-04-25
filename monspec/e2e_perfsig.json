@@ -1,4 +1,5 @@
 {
+    "_lowerLimit" : -0.0,
     "_upperLimit" : 1000.0,
     "timeseries" : [
         {
