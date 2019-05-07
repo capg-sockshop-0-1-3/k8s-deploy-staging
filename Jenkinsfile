@@ -78,8 +78,8 @@ pipeline {
                 serverUrl: "front-end.staging", 
                 serverPort: 8080,
                 checkPath: '/health',
-                vuCount: 10,
-                loopCount: 5,
+                vuCount: 5,
+                loopCount: 2,
                 LTN: "e2eCheck_${BUILD_NUMBER}",
                 funcValidation: false,
                 avgRtValidation: 4000
