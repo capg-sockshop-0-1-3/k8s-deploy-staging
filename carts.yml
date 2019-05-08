@@ -6,15 +6,12 @@ metadata:
   namespace: staging
 spec:
   replicas: 1
-  selector:
-    matchLabels:
-      app: carts
-      version: v1
   template:
     metadata:
       labels:
         app: carts
         version: v1
+        deployment: carts
     spec:
       containers:
       - name: carts
