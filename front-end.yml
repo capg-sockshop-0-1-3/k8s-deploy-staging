@@ -14,15 +14,7 @@ spec:
     spec:
       containers:
       - name: front-end
-<<<<<<< HEAD
         image: 10.59.253.69:5000/library/sockshop/front-end:0.14.0
-=======
-<<<<<<< HEAD
-        image: 10.59.253.69:5000/library/sockshop/front-end:0.14.0
-=======
-        image: 10.59.253.69:5000/library/sockshop/front-end:0.14.0
->>>>>>> 6fe2fc807118ebd3345c2635b5f0beb965b5466e
->>>>>>> 8d1d4e6b14c46cbce6e82ae16fc3db22893c0dbe
         env: 
         - name: DT_TAGS
           value: "application=sockshop"
