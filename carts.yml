@@ -15,11 +15,7 @@ spec:
     spec:
       containers:
       - name: carts
-<<<<<<< HEAD
         image: 10.59.253.69:5000/library/sockshop/carts:0.29.0
-=======
-        image: 10.59.253.69:5000/library/sockshop/carts:0.29.0
->>>>>>> 6fe2fc807118ebd3345c2635b5f0beb965b5466e
         env:
         - name: JAVA_OPTS
           value: -Xms128m -Xmx512m -XX:PermSize=128m -XX:MaxPermSize=128m -XX:+UseG1GC -Djava.security.egd=file:/dev/urandom
